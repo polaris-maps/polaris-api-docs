@@ -1,4 +1,4 @@
-# Docs
+# Polaris API Docs
 
 This contains information related to the Polaris Maps project:
 - Detailed API documentation
