@@ -1,2 +1,0 @@
-curl 'http://localhost:5001/app/'
-curl 'http://localhost:5001/app/invalid/endpoint'

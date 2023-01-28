@@ -1,9 +1,25 @@
+---
+layout: default
+title: How to connect locally to MongoDB (Atlas)
+parent: Resources
+nav_order: 1
+---
+
 # How to connect locally to MongoDB (Atlas)
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 **IMPORTANT:** When committing changes, please make sure **NOT** to add files with secret information similar to that in `config.env` to the changes to be committed. If needed, add the files to the list in the `.gitignore`. Pushing commits with secret information **will** accidentally and irrevocably expose the information unless you happen to be working on a repository fork that can be deleted entirely. If this does happen to you, to ensure security, please notify the groupchat. Although the data for this project are open, it would be best to change your password to ensure security. 
 
 ## Basic Connection
-1. Accept the invite and create a MongoDB account, if you have not already.
+1. Accept the invite (if invited to the MongoDB project) and create a MongoDB account, if you have not already.
 2. Open the Polaris project. Under Security in the left sidebar, click on Database Access. Add yourself as a new database user with read/write access.
     - Since we likely will not be making multiple clusters, it would be best to select 'Read and write to any database' rather than 'Atlas admin' as one's role for now. 
 3. Return to Database under Deployment and click on the "Connect" button. Click on "Connect your application," then select your driver (Node.js) and version (4.0 or later).
