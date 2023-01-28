@@ -25,11 +25,13 @@ curl http://localhost:5001/app/
 ```
 
 #### Response body
+{% raw %}
 
 ```
 {"message":"Your API works! (200)"}
 ```
 
+{% endraw %}
 #### Response headers
 
 ```

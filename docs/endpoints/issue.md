@@ -23,10 +23,11 @@ nav_order: 4
     curl http://localhost:5000/app/issue/all
 ```
 #### Response body
-
+{% raw %}
 ```
        {{ location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}, { location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}}
 ```
+{% endraw %}
 #### Response headers
 
 ```
@@ -47,10 +48,12 @@ nav_order: 4
  curl http://localhost:5000/app/issue/:id
 ```
 #### Response body
+{% raw %}
 
 ```
  { location: String, latitude: Number, longitude: Number, description: String, status: String, datetimeOpen: Number, datetimeClosed: Number, datetimePermanent: Number, votes: Number}
 ```
+{% endraw %}
 #### Response headers
 
 ```
@@ -71,10 +74,12 @@ nav_order: 4
 curl http://localhost:5000/app/issue/add
 ```
 #### Response body
+{% raw %}
 
 ```
 {(200)}
 ```
+{% endraw %}
 #### Response headers
 
 ```
@@ -94,10 +99,12 @@ Keep-Alive: timeout=5
 curl http://localhost:5000/app/issue/update:id
 ```
 #### Response body
+{% raw %}
 
 ```
  {(200)}
 ```
+{% endraw %}
 #### Response headers
 
 ```
@@ -117,10 +124,12 @@ Keep-Alive: timeout=5
 curl http://localhost:5000/app/issue/delete:id
 ```
 #### Response body
+{% raw %}
 
 ```
  {(200)}
 ```
+{% endraw %}
 #### Response headers
 
 ```

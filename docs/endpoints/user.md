@@ -24,12 +24,14 @@ curl http://localhost:5000/app/user/all
 ```
 
 #### Response body
+{% raw %}
 
 ```
 {{ firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },
 { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] },}
 ```
 
+{% endraw %}
 #### Response headers
 
 ```
@@ -51,11 +53,13 @@ curl http://localhost:5000/app/user/:id
 ```
 
 #### Response body
+{% raw %}
 
 ```
 { firstName: John, lastName: Doe, email: test@email.com, favoriteLocations: [], issueInterractions: [], issuesCreated: [] }
 ```
 
+{% endraw %}
 #### Response headers
 
 ```
@@ -77,11 +81,13 @@ curl http://localhost:5000/app/user/add
 ```
 
 #### Response body
+{% raw %}
 
 ```
 {(200)}
 ```
 
+{% endraw %}
 #### Response headers
 
 ```
@@ -103,11 +109,13 @@ curl http://localhost:5000/app/user/all
 ```
 
 #### Response body
+{% raw %}
 
 ```
 {200}
 ```
 
+{% endraw %}
 #### Response headers
 
 ```
@@ -129,11 +137,13 @@ curl http://localhost:5000/app/user/delete/:id
 ```
 
 #### Response body
+{% raw %}
 
 ```
 {200}
 ```
 
+{% endraw %}
 #### Response headers
 
 ```
