@@ -31,7 +31,7 @@ See [this page](https://polaris-maps.github.io/polaris-api-docs/docs/resources/m
     ```
 5. Test and document your API endpoints. 
     - Testing: See [api-tests/issue.txt](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/api-tests/issue.txt) for examples.
-    - Documentation: more to come!
+    - Documentation: Open a pull request in [the Polaris API Docs repository](https://github.com/polaris-maps/polaris-api-docs) to add your endpoints!
 
 ## Part 2: Front end
 1. Add a service by `cd` ing into the client folder and executing the following command, replacing `<service name>` with the name of your service, i.e. issue or login:
