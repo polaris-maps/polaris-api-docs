@@ -8,12 +8,11 @@ permalink: /
 
 # Home
 {: .fs-9 }
-
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+Navigation, for everyone.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[API](https://github.com/polaris-maps/polaris-api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Organization](https://github.com/polaris-maps){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -31,12 +30,15 @@ Polaris Maps is &copy; 2021-{{ "now" | date: "%Y" }}.
 
 ### License
 
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
+Polaris API is distributed by a [GNU General Public License v3.0](https://github.com/polaris-maps/polaris-api/blob/main/LICENSE).
+
+Just the Docs (the theme used to power the website) is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
 
 ### Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. 
+
+(Coming soon) Read more about becoming a contributor in [our GitHub repo](https://github.com/polaris-maps).
 
 #### Thank you to the contributors of the Polaris Maps API!
 
@@ -50,6 +52,6 @@ email, or any other method with the owners of this repository before making a ch
 
 ### Code of Conduct
 
-Just the Docs is committed to fostering a welcoming community.
+Polaris Maps is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
+[Coming Soon - View our Code of Conduct](https://github.com/polaris-maps) on our GitHub repository.

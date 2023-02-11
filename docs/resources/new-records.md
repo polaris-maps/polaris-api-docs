@@ -18,7 +18,7 @@ nav_order: 2
 **NOTE** Links have yet to be updated.
 
 ## Part 0: Set up connection to MongoDB
-See [this page](https://github.com/comp426-2022-spring/a99-polaris/blob/main/docs/planning/how-to-add-and-use-collection-mern/mongodb-conn.md) (mongodb-conn.md) for instructions on setting up a preliminary connection to MongoDB!
+See [this page](https://polaris-maps.github.io/polaris-api-docs/docs/resources/mongodb-conn/) (mongodb-conn.md) for instructions on setting up a preliminary connection to MongoDB!
 
 ## Part 1: Back end
 1. Create a new JS file defining the schema in the [api/schemas folder](https://github.com/comp426-2022-spring/a99-polaris/tree/main/api/schemas). Feel free to model it after [issue.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/schemas/issue.js) or [user.js](https://github.com/comp426-2022-spring/a99-polaris/blob/main/api/schemas/user.js).
