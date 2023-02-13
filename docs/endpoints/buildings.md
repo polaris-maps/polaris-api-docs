@@ -20,7 +20,7 @@ nav_order: 3
 
 #### Request cURL
 ```
-curl http://localhost:5001/app/
+curl http://localhost:5000/app/
 ```
 
 #### Response body

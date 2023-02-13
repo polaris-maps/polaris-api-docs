@@ -8,6 +8,6 @@ permalink: /docs/endpoints
 
 # Endpoints
 
-For access to the API. Requires a key.
+For access to the API. 
 
 {: .fs-6 .fw-300 }
