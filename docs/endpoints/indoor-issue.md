@@ -19,7 +19,7 @@ nav_order: 4
 ### /app/indoorIssue/all
 #### Request cURL
 ```
-curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorindoorIssue/all
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/all
 ```
 
 #### Response body
@@ -101,7 +101,7 @@ curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indo
   "datetimeOpen": 1658532213016,
   "datetimeClosed": 0,
   "datetimePermanent": 0,
-  "votes": 1
+  "votes": []
 }'
 ```
 
@@ -116,10 +116,8 @@ curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indo
     "datetimeOpen": 1658532213016,
     "datetimeClosed": 0,
     "datetimePermanent": 0,
-    "votes": [
-        "1"
-    ],
-    "_id": "63e948b91f0bdf63525ca500",
+    "votes": [],
+    "_id": "63efca9692a0d7078a39755a",
     "__v": 0
 }
 ```
@@ -129,13 +127,16 @@ curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indo
 ### /app/indoorIssue/update/:id
 #### Request cURL
 ```
-curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/update:id
+curl -X PATCH 'http://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/issue/update/:id' -H "Content-type: application/json" -d '{
+    "datetimeClosed": 1659532213016,
+    "votes": ["625843cae357724a2aa4d0ba"]
+}'
 ```
 
 #### Response body
 {% raw %}
 ```
- {(200)}
+empty
 ```
 {% endraw %}
 
@@ -143,12 +144,25 @@ curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/u
 ### /app/indoorIssue/delete/:id
 #### Request cURL
 ```
-curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/delete:id
+curl -X DELETE https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/delete/:id
 ```
 
 #### Response body
 {% raw %}
 ```
- {(200)}
+{
+    "msg": {
+        "_id": "63efca9692a0d7078a39755a",
+        "location": "Test Hall",
+        "category": "Test",
+        "description": "Test indoorIssue",
+        "status": "Open",
+        "datetimeOpen": 1658532213016,
+        "datetimeClosed": 0,
+        "datetimePermanent": 0,
+        "votes": [],
+        "__v": 0
+    }
+}
 ```
 {% endraw %}
