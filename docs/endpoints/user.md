@@ -19,7 +19,7 @@ nav_order: 2
 ### /app/user/all (GET)
 #### Request cURL
 ```
-curl http://localhost:5000/app/user/all
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/user/all
 ```
 
 #### Response body
@@ -33,7 +33,7 @@ curl http://localhost:5000/app/user/all
 ### /app/user/:id (GET)
 #### Request cURL
 ```
-curl http://localhost:5000/app/user/:id
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/user/:id
 ```
 
 #### Response body
@@ -47,7 +47,7 @@ curl http://localhost:5000/app/user/:id
 ### /app/user/add (GET)
 #### Request cURL
 ```
-curl http://localhost:5000/app/user/add
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/user/add
 ```
 
 #### Response body
@@ -73,7 +73,7 @@ Keep-Alive: timeout=5
 #### Request cURL
 
 ```
-curl http://localhost:5000/app/user/all
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/user/all
 ```
 
 #### Response body
@@ -88,7 +88,7 @@ curl http://localhost:5000/app/user/all
 #### Request cURL
 
 ```
-curl http://localhost:5000/app/user/delete/:id
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/user/delete/:id
 ```
 
 #### Response body

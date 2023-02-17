@@ -20,7 +20,7 @@ nav_order: 3
 
 #### Request cURL
 ```
-curl http://localhost:5000/app/
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/
 ```
 
 #### Response body

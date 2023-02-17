@@ -19,7 +19,7 @@ nav_order: 4
 ### /app/indoorIssue/all
 #### Request cURL
 ```
-curl http://localhost:5000/app/indoorindoorIssue/all
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorindoorIssue/all
 ```
 
 #### Response body
@@ -65,7 +65,7 @@ curl http://localhost:5000/app/indoorindoorIssue/all
 #### Request cURL
 
 ```
-curl http://localhost:5000/app/indoorIssue/:id
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/:id
 ```
 
 #### Response body
@@ -93,7 +93,7 @@ curl http://localhost:5000/app/indoorIssue/:id
 ### /app/indoorIssue/add
 #### Request cURL
 ```
-curl -X POST 'http://localhost:5000/app/indoorIssue/add' -H "Content-type: application/json" -d '{
+curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/add' -H "Content-type: application/json" -d '{
   "location": "Test Hall",
   "category": "Test",
   "description": "Test indoorIssue",
@@ -129,7 +129,7 @@ curl -X POST 'http://localhost:5000/app/indoorIssue/add' -H "Content-type: appli
 ### /app/indoorIssue/update/:id
 #### Request cURL
 ```
-curl http://localhost:5000/app/indoorIssue/update:id
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/update:id
 ```
 
 #### Response body
@@ -143,7 +143,7 @@ curl http://localhost:5000/app/indoorIssue/update:id
 ### /app/indoorIssue/delete/:id
 #### Request cURL
 ```
-curl http://localhost:5000/app/indoorIssue/delete:id
+curl https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/delete:id
 ```
 
 #### Response body
