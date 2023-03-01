@@ -109,16 +109,19 @@ curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indo
 {% raw %}
 ```
 {
-    "location": "Test Hall",
-    "category": "Test",
-    "description": "Test indoorIssue",
-    "status": "Open",
-    "datetimeOpen": 1658532213016,
-    "datetimeClosed": 0,
-    "datetimePermanent": 0,
-    "votes": [],
-    "_id": "63efca9692a0d7078a39755a",
-    "__v": 0
+    "msg": "successfully added indoor issue",
+    "data": {
+        "location": "Test Hall",
+        "category": "Test",
+        "description": "Test indoorIssue",
+        "status": "Open",
+        "datetimeOpen": 1658532213016,
+        "datetimeClosed": 0,
+        "datetimePermanent": 0,
+        "votes": [],
+        "_id": "63ff69ea486ef1a08b20a22a",
+        "__v": 0
+    }
 }
 ```
 {% endraw %}
@@ -127,7 +130,7 @@ curl -X POST 'https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indo
 ### /app/indoorIssue/update/:id
 #### Request cURL
 ```
-curl -X PATCH 'http://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/issue/update/:id' -H "Content-type: application/json" -d '{
+curl -X PATCH 'http://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/indoorIssue/update/:id' -H "Content-type: application/json" -d '{
     "datetimeClosed": 1659532213016,
     "votes": ["625843cae357724a2aa4d0ba"]
 }'
@@ -136,7 +139,21 @@ curl -X PATCH 'http://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/issu
 #### Response body
 {% raw %}
 ```
-empty
+{
+    "msg": "successfully updated indoor issue",
+    "oldData": {
+        "_id": "63ff69ea486ef1a08b20a22a",
+        "location": "Test Hall",
+        "category": "Test",
+        "description": "Test indoorIssue",
+        "status": "Open",
+        "datetimeOpen": 1658532213016,
+        "datetimeClosed": 0,
+        "datetimePermanent": 0,
+        "votes": [],
+        "__v": 0
+    }
+}
 ```
 {% endraw %}
 
@@ -151,8 +168,9 @@ curl -X DELETE https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/ind
 {% raw %}
 ```
 {
-    "msg": {
-        "_id": "63efca9692a0d7078a39755a",
+    "msg": "successfully deleted indoor issue",
+    "data": {
+        "_id": "63e948b91f0bdf63525ca500",
         "location": "Test Hall",
         "category": "Test",
         "description": "Test indoorIssue",
@@ -160,7 +178,9 @@ curl -X DELETE https://accessnav-api-git-ctine987.apps.cloudapps.unc.edu/app/ind
         "datetimeOpen": 1658532213016,
         "datetimeClosed": 0,
         "datetimePermanent": 0,
-        "votes": [],
+        "votes": [
+            "1"
+        ],
         "__v": 0
     }
 }
